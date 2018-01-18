@@ -1,0 +1,45 @@
+<html>
+
+<body background="./img/edm.jpg" text="Silver">
+<style>
+.button {
+    background-color: cyan;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+<script type="text/javascript" language="javascript">
+			function over(click)
+			{
+
+				var x = document.getElementsByName("c");
+	 			var i;
+				for (i=0;i<x.length;i++)
+					x[i].style.color="white";
+				
+				click.style.color="black";
+			}
+
+		</script>
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+
+</style>
+<br><p><p>
+<h1>Portfolio</h1></p></p>
+<p align=right>
+<a href="Homepage.html" name ="c" class="button" target="a" onclick="over(this)">HOME</a> 
+<a href="About.html" name ="c" class="button" target="a" onclick="over(this)">ABOUT</a> 
+<a href="Contact.html" name ="c" class="button" target="a" onclick="over(this)">CONTACT</a>
+
+</body>
+</html>
+
